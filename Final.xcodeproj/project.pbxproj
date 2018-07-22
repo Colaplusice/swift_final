@@ -113,6 +113,7 @@
 		154CCBA320CE332C005E03B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		158AF74E20DFBD12006DC7D2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B13F4A20E380ED00FEF38E /* Picture_layoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture_layoutViewController.swift; sourceTree = "<group>"; };
+		15BA8EC72104D35200DE4527 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15F25A5920E5E4140021F158 /* 019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 019.png; sourceTree = "<group>"; };
 		15F46E9720DE3E6100FED275 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		15F46E9920DE3E6700FED275 /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
@@ -256,6 +257,7 @@
 		154CCB7520CE332A005E03B8 = {
 			isa = PBXGroup;
 			children = (
+				15BA8EC72104D35200DE4527 /* README.md */,
 				154CCB8020CE332A005E03B8 /* Final */,
 				154CCB9520CE332C005E03B8 /* FinalTests */,
 				154CCBA020CE332C005E03B8 /* FinalUITests */,
