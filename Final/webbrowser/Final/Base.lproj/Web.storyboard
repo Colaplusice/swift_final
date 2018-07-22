@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dCX-gc-O8V">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--网页浏览器-->
+        <scene sceneID="Ejt-W0-5Ku">
+            <objects>
+                <viewController id="dCX-gc-O8V" customClass="webViewController" customModule="Final" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QnY-Z8-ZUd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="hy9-tY-kTW"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="eQo-tu-PKh" appends="YES" id="Ct9-M5-7LC"/>
+                        </connections>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="网页浏览器" id="Fqt-qx-Q4y" userLabel="图片浏览器"/>
+                    <connections>
+                        <outlet property="tap" destination="eQo-tu-PKh" id="AAs-3z-0Qt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aWC-LJ-Iu0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="eQo-tu-PKh">
+                    <connections>
+                        <action selector="left:" destination="dCX-gc-O8V" id="1p4-Fh-nuM"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-1874.5" y="-556.5"/>
+        </scene>
+    </scenes>
+</document>
